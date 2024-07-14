@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.nav-header {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 70vw;
+}
+.blog-title {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 16px;
+}
+.sub-title {
+  color: #12022f;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: #12022f;
+    font-size: 34px;
+  }
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
